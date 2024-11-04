@@ -4,7 +4,6 @@ import tkinter.font as tkfont
 import random
 
 
-# Class for the Young Animal Quiz game
 class YoungAnimalQuiz:
     def __init__(self, root):
         # Initializes the main game window and settings
