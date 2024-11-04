@@ -171,7 +171,7 @@ class YoungAnimalQuiz:
         self.current_question_index += 1
         self.round_count += 1
 
-        feedback_label = tk.Label(feedback_frame, text=feedback, font=self.default_font, bg=feedback_frame["bg"])
+        feedback_label = tk.Label(feedback_frame, text=feedback, font=self.default_font, bg=feedback_frame["bg"])        
         feedback_label.pack(pady=20)
 
         next_round_button = tk.Button(feedback_frame, text="Next Round", command=self.display_question,
