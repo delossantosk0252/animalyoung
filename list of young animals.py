@@ -1,10 +1,10 @@
 import csv
 
 # get the csv file
-animals_list = 'animals_young_collective.csv'
+animals_list = 'animals_young_only.csv'
 
 # open the csv file
-with open("animals_young_collective.csv", 'r',) as file:
+with open("animals_young_only.csv", 'r',) as file:
     animals_young_collective = list(csv.reader(file, delimiter=","))
     file.close()
     # removes first entry in list (ie: the header row)
